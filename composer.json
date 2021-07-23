@@ -1,0 +1,24 @@
+{
+    "name": "tdoescher/ifcookie-bundle",
+    "description": "Contao Text Bundle.",
+    "type": "contao-bundle",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Torben Döscher",
+            "homepage": "https://tdoescher.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "contao/core-bundle": "^4.11"
+    },
+    "extra": {
+        "contao-manager-plugin": "tdoescher\\IfCookieBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "tdoescher\\IfCookieBundle\\": "src/"
+        }
+    }
+}
