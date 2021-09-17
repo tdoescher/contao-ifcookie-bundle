@@ -1,6 +1,6 @@
 {
     "name": "tdoescher/ifcookie-bundle",
-    "description": "Contao Text Bundle.",
+    "description": "Contao IfCookie Bundle.",
     "type": "contao-bundle",
     "license": "LGPL-3.0-or-later",
     "authors": [
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
+        "php": ">=7.2",
         "contao/core-bundle": "^4.11"
     },
     "extra": {
