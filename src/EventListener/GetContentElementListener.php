@@ -3,7 +3,6 @@
 namespace tdoescher\IfCookieBundle\EventListener;
 
 use Contao\CoreBundle\ServiceAnnotation\Hook;
-use Contao\ContentElement;
 use Contao\ContentModel;
 
 /**
@@ -11,7 +10,7 @@ use Contao\ContentModel;
  */
 class GetContentElementListener
 {
-    public function __invoke(ContentModel $model, string $buffer, ContentElement $element): string
+    public function __invoke(ContentModel $model, string $buffer, $element): string
     {
         if(TL_MODE == 'FE')
         {
