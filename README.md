@@ -1,3 +1,3 @@
-# IfCookie bundle for Contao Open Source CMS
+# Verbergen von Content Elementen in Abhängigkeit von Cookies
 
-Use this bundle to show or hide Content Elements by Cookies.
+Mit diesem Bundle können Content Element in Abhängigkeit von Cookies angezeigt oder verborgen werden.

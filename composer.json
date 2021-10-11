@@ -1,6 +1,6 @@
 {
     "name": "tdoescher/ifcookie-bundle",
-    "description": "Contao IfCookie Bundle.",
+    "description": "Verbergen von Content Elementen in abhägigkeit von Cookies",
     "type": "contao-bundle",
     "license": "LGPL-3.0-or-later",
     "authors": [

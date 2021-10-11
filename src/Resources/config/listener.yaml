@@ -1,7 +1,5 @@
 services:
-    tdoescher.ifcookie_bundle.listener.data_container.add_pallete_callback:
-        class: tdoescher\IfCookieBundle\EventListener\DataContainer\AddPalleteCallback
+    tdoescher\IfCookieBundle\EventListener\DataContainer\AddPalleteCallback:
         autoconfigure: true
-    tdoescher.ifcookie_bundle.listener.get_content_element_listener:
-        class: tdoescher\IfCookieBundle\EventListener\GetContentElementListener
+    tdoescher\IfCookieBundle\EventListener\GetContentElementListener:
         autoconfigure: true
